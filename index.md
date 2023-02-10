@@ -7,3 +7,5 @@
 #
 layout: home
 ---
+
+The content here will appear at the homepage.
