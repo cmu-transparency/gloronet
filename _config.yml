@@ -1,12 +1,12 @@
 title: Gloro Nets
 author:
-  name: Klas Leino, Zifan Wang, Matt Fredrikson
+  name: Contact for Collaboration -> Matt Fredrikson
   email: mfredrik@cmu.edu
 
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
 description: >
-  This is a homepage for Gloro Nets
+  This is a homepage for Gloro Nets and Gloro-inspiried projects. This webpage is maintained by Zifan Wang.
 # Build settings
 
 theme: minima
