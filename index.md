@@ -11,7 +11,7 @@ layout: home
 
 ![Logo](media/logo_img.png#center)
 
-This site introduces GloRo Nets (for "globally robust networks"), a family of Deep Neural Networks that is verifiably robust against $\ell_p$-norm-bounded perturbations. Our Lipschitz-based robustness verification is *instant* and *deterministic* (so there is no false positive case) and scales favorably well to ImageNet-scale models. GloRo Nets have inspired a set of follow-up works in deep learning safety, explainability, overfitting and privacy. Read each individual post [HERE] for more information about GloRo-based works.
+This site introduces GloRo Nets (for "globally robust networks"), a family of Deep Neural Networks that is verifiably robust against L2-norm-bounded perturbations. Our Lipschitz-based robustness verification is *instant* and *deterministic* (so there is no false positive case) and scales favorably well to ImageNet-scale models. GloRo Nets have inspired a set of follow-up works in deep learning safety, explainability, overfitting and privacy. Read each individual post [HERE] for more information about GloRo-based works.
 
 ## Contributions of GloRo Nets to Robustness Research
 ### State-of-the-art Provable Robustness 
@@ -21,8 +21,8 @@ GloRo Nets provide the *state-of-the-art* determinristic robustness guarantee on
 
 dataset       |norm| radius | architecture     | VRA
 --------------|----|--------|------------------|----------
-MNIST         |$\ell_2$| 0.3    | Conv 2C2F        | **0.957**
-MNIST         |$\ell_2$| 1.58   | Conv 4C3F        | **0.628**
+MNIST         |\\(\\ell_2\\)| 0.3    | Conv 2C2F        | **0.957**
+MNIST         |l2| 1.58   | Conv 4C3F        | **0.628**
 CIFAR-10      |$\ell_2$| 0.141  | Conv 6C2F        | 0.600
 CIFAR-10      |$\ell_2$| 0.141  | LiResNet 18L256W | **0.651**
 CIFAR-100     |$\ell_2$| 0.141  | LiResNet 18L256W | **0.363**
