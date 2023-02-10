@@ -8,4 +8,12 @@
 layout: home
 ---
 
+
+![Logo](media/logo_img.png#center)
+
 The content here will appear at the homepage.
+
+### Main Contributors
+
+[Klas Leino](https://www.cs.cmu.edu/~kleino/), [Zifan Wang](https://sites.google.com/west.cmu.edu/zifan-wang/home), [Matt Fredrikson](https://www.cs.cmu.edu/~mfredrik/), Kai Hu, [Andy Zou](https://andyzoujm.github.io)
+

@@ -1,7 +1,7 @@
 title: Gloro Nets
 author:
-  name: Zifan Wang
-  email: zifan@cmu.edu
+  name: Klas Leino, Zifan Wang, Matt Fredrikson
+  email: mfredrik@cmu.edu
 
 # The `>` after `description:` means to ignore line-breaks until next key.
 # If you want to omit the line-break after the end of text, use `>-` instead.
