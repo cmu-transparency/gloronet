@@ -17,44 +17,59 @@ This site introduces GloRo Nets (for "globally robust networks"), a family of De
 ### State-of-the-art Provable Robustness 
 #### (last update: 2023-02)
 
-GloRo Nets provide the *state-of-the-art* determinristic robustness guarantee on image classification. We provide a quick overview of the best VRA (verified-robust accuracy) results here (these are more up-to-date and may surpass the results reported in the original paper).  
+GloRo Nets provide the *state-of-the-art* deterministic robustness guarantee. We provide a quick overview of the best VRA (verified-robust accuracy) results here. These are more up-to-date and may surpass the results reported in the original paper.  
 
 dataset       |norm| radius | architecture     | VRA
 --------------|----|--------|------------------|----------
-MNIST         |\\(\\ell_2\\)| 0.3    | Conv 2C2F        | **0.957**
+MNIST         |L2| 0.3    | Conv 2C2F        | **0.957**
 MNIST         |l2| 1.58   | Conv 4C3F        | **0.628**
-CIFAR-10      |$\ell_2$| 0.141  | Conv 6C2F        | 0.600
-CIFAR-10      |$\ell_2$| 0.141  | LiResNet 18L256W | **0.651**
-CIFAR-100     |$\ell_2$| 0.141  | LiResNet 18L256W | **0.363**
-Tiny-Imagenet |$\ell_2$| 0.141  | Conv 8C2F        | 0.224
-Tiny-Imagenet |$\ell_2$| 0.141  | LiResNet 18L256W | **0.292**
-ImageNet      |$\ell_2$| 1.0    | LiResNet 18L588W | **0.142**
+CIFAR-10      |L2| 0.141  | Conv 6C2F        | 0.600
+CIFAR-10      |L2| 0.141  | LiResNet 18L256W | **0.651**
+CIFAR-100     |L2| 0.141  | LiResNet 18L256W | **0.363**
+Tiny-Imagenet |L2| 0.141  | Conv 8C2F        | 0.224
+Tiny-Imagenet |L2| 0.141  | LiResNet 18L256W | **0.292**
+ImageNet      |L2| 1.0    | LiResNet 18L588W | **0.142**
 
-TODO: paper urls.
+:book: Read our [ICML](http://proceedings.mlr.press/v139/leino21a/leino21a.pdf) paper for GloRo Nets and the recent [arxiv](https://arxiv.org/pdf/2301.12549.pdf) paper of LiResNet architecture.
+
+:computer: Check out our implementations for popular deep learning frameworks (click the icon below).
+
+[<img src="https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white">](https://github.com/klasleino/gloro) [<img src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white">](https://github.com/klasleino/gloro/tree/master/snapshots)
+
+
+
+---
 
 ### Towards Provable Top-K Robustness 
 
 TODO
 
+---
+
 ### Exploring Overfitting with GloRo Nets and TruLens
 
 TODO
 
+---
 
 ### Exploring Privacy Leakage in Robust Models with GloRo Nets
 
 TODO
 
+---
 
 ### A Pitfall of Robustness Certification: A Denial-of-service Attack.
 
 TODO
 
+
+
 ## Making A Pull Request for GloRo-based Projects and Publications
 
 Please feel free to make a pull request at the github page of this website (https://github.com/cmu-transparency/gloronet) to include your own GloRo-based work. A pull request should add another MARKDOWN file to `_posts/` following the template `_templates/project_post.md`.
 
-## Bitex Citation
+
+## Bibtex Citation
 If you use the code of GloRo Net in your own project, please consider to using the following citations. If you are using a particular follow-up work described in [HERE], please additionally include the citation at the end of the project post.
 
 ```
