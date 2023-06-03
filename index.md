@@ -22,10 +22,10 @@ GloRo Nets provide the *state-of-the-art* deterministic robustness guarantee. We
 dataset       |norm| radius | architecture     | VRA (%)
 --------------|----|--------|------------------|----------
 MNIST         |l2| 1.58   | Conv 4C3F        | 62.8
-CIFAR-10      |L2| 0.141  | LiResNet 18L256W | 70.1
-CIFAR-100     |L2| 0.141  | LiResNet 18L256W | 41.5
-Tiny-Imagenet |L2| 0.141  | LiResNet 18L256W | 33.6
-ImageNet      |L2| 0.141    | LiResNet 18L588W | 35.0
+CIFAR-10      |L2| 0.141  | LiResNet L12W512 | 70.1
+CIFAR-100     |L2| 0.141  | LiResNet L12W512 | 41.5
+Tiny-Imagenet |L2| 0.141  | LiResNet L12W512 | 33.6
+ImageNet      |L2| 0.141    | LiResNet L12W588 | 35.0
 
 :book: Read our [ICML](http://proceedings.mlr.press/v139/leino21a/leino21a.pdf) paper for GloRo Nets and the recent [follow-up](https://arxiv.org/pdf/2301.12549.pdf) paper of LiResNet architecture.
 
