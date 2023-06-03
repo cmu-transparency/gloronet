@@ -15,22 +15,19 @@ This site introduces GloRo Nets (for "globally robust networks"), a family of De
 
 ## Contributions of GloRo Nets to Robustness Research
 ### State-of-the-art Provable Robustness 
-#### (last update: 2023-02)
+#### (last update: 2023-06)
 
 GloRo Nets provide the *state-of-the-art* deterministic robustness guarantee. We provide a quick overview of the best VRA (verified-robust accuracy) results here. These are more up-to-date and may surpass the results reported in the original paper.  
 
-dataset       |norm| radius | architecture     | VRA
+dataset       |norm| radius | architecture     | VRA (%)
 --------------|----|--------|------------------|----------
-MNIST         |L2| 0.3    | Conv 2C2F        | 0.957
-MNIST         |l2| 1.58   | Conv 4C3F        | 0.628
-CIFAR-10      |L2| 0.141  | Conv 6C2F        | 0.600
-CIFAR-10      |L2| 0.141  | LiResNet 18L256W | 0.651
-CIFAR-100     |L2| 0.141  | LiResNet 18L256W | 0.363
-Tiny-Imagenet |L2| 0.141  | Conv 8C2F        | 0.224
-Tiny-Imagenet |L2| 0.141  | LiResNet 18L256W | 0.292
-ImageNet      |L2| 1.0    | LiResNet 18L588W | 0.142
+MNIST         |l2| 1.58   | Conv 4C3F        | 62.8
+CIFAR-10      |L2| 0.141  | LiResNet 18L256W | 70.1
+CIFAR-100     |L2| 0.141  | LiResNet 18L256W | 41.5
+Tiny-Imagenet |L2| 0.141  | LiResNet 18L256W | 33.6
+ImageNet      |L2| 0.141    | LiResNet 18L588W | 35.0
 
-:book:j Read our [ICML](http://proceedings.mlr.press/v139/leino21a/leino21a.pdf) paper for GloRo Nets and the recent [arxiv](https://arxiv.org/pdf/2301.12549.pdf) paper of LiResNet architecture.
+:book: Read our [ICML](http://proceedings.mlr.press/v139/leino21a/leino21a.pdf) paper for GloRo Nets and the recent [follow-up](https://arxiv.org/pdf/2301.12549.pdf) paper of LiResNet architecture.
 
 :computer: Check out our implementations for popular deep learning frameworks (click the icon below).
 
